@@ -1,0 +1,27 @@
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/canteen2-511/model.py:34: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(path, map_location=device)
+searched=36
+csv=analysis/20260513_0944_E0_threshold_search/threshold_search.csv
+best=analysis/20260513_0944_E0_threshold_search/best_thresholds.json
+{
+  "t_food": 0.5,
+  "t_chart": 0.85,
+  "accuracy": 0.8741660915573959,
+  "macro_f1": 0.8916118351049894,
+  "food_precision": 0.9835958005249343,
+  "food_recall": 0.7495,
+  "chart_precision": 0.9741176470588235,
+  "chart_recall": 0.9775678866587958,
+  "other_recall": 0.982,
+  "other_to_food_fpr": 0.016666666666666666,
+  "other_to_chart_fpr": 0.0013333333333333333,
+  "thresholds": {
+    "food": 0.5,
+    "chart": 0.85
+  },
+  "score_means": {
+    "food_score": 0.3396484851837158,
+    "chart_score": 0.21474120020866394
+  },
+  "confusion_matrix": "[[1499, 20, 481], [0, 828, 19], [25, 2, 1473]]"
+}

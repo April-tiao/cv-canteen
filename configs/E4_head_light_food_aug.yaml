@@ -1,0 +1,30 @@
+seed: 42
+dataset:
+  root: dataset
+  image_size: 224
+  num_workers: 2
+  max_image_pixels: 50000000
+  eval_batch_size: 64
+  aug_strength: light
+  batch_class_counts:
+    food: 20
+    chart: 20
+    other: 24
+  chart_real_fraction: 0.30
+model:
+  weights: IMAGENET1K_V1
+  freeze_backbone_epochs: 5
+  unfreeze_backbone: false
+  checkpoint_dir: checkpoints
+train:
+  epochs: 5
+  lr_head: 0.0003
+  lr_backbone: 0.00005
+  weight_decay: 0.0001
+  amp: true
+  grad_clip_norm: 1.0
+  early_stopping_patience: 2
+  log_interval: 20
+thresholds:
+  food: 0.75
+  chart: 0.85

@@ -1,0 +1,133 @@
+train counts: {'food': 8000, 'chart': 3388, 'other': 6000}
+val counts: {'food': 2000, 'chart': 847, 'other': 1500}
+checkpoint_dir: checkpoints/20260513_0944_E1_food28_chart18_other18
+train epoch 1 batch 20/272 loss=0.5710 0.48 batch/s
+train epoch 1 batch 40/272 loss=0.4229 0.47 batch/s
+train epoch 1 batch 60/272 loss=0.3635 0.47 batch/s
+train epoch 1 batch 80/272 loss=0.2706 0.47 batch/s
+train epoch 1 batch 100/272 loss=0.2258 0.47 batch/s
+train epoch 1 batch 120/272 loss=0.2298 0.47 batch/s
+train epoch 1 batch 140/272 loss=0.1537 0.46 batch/s
+train epoch 1 batch 160/272 loss=0.1874 0.46 batch/s
+train epoch 1 batch 180/272 loss=0.1822 0.47 batch/s
+train epoch 1 batch 200/272 loss=0.1921 0.46 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+train epoch 1 batch 220/272 loss=0.1572 0.46 batch/s
+train epoch 1 batch 240/272 loss=0.1285 0.46 batch/s
+train epoch 1 batch 260/272 loss=0.1300 0.46 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+
+epoch 1/5 train_loss=0.2656 val_loss=0.2045
+accuracy: 0.7486
+macro_f1: 0.7745
+food precision/recall: 0.9981/0.5320
+chart precision/recall: 0.9872/0.8205
+other recall: 0.9967
+other -> food FPR: 0.0013
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1064, 6, 930], [0, 695, 152], [2, 3, 1495]]
+train epoch 2 batch 20/272 loss=0.1150 0.45 batch/s
+train epoch 2 batch 40/272 loss=0.1242 0.43 batch/s
+train epoch 2 batch 60/272 loss=0.0881 0.43 batch/s
+train epoch 2 batch 80/272 loss=0.1080 0.45 batch/s
+train epoch 2 batch 100/272 loss=0.1225 0.45 batch/s
+train epoch 2 batch 120/272 loss=0.0918 0.44 batch/s
+train epoch 2 batch 140/272 loss=0.0783 0.44 batch/s
+train epoch 2 batch 160/272 loss=0.1118 0.45 batch/s
+train epoch 2 batch 180/272 loss=0.0534 0.45 batch/s
+train epoch 2 batch 200/272 loss=0.0935 0.45 batch/s
+train epoch 2 batch 220/272 loss=0.0653 0.45 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+train epoch 2 batch 240/272 loss=0.0847 0.45 batch/s
+train epoch 2 batch 260/272 loss=0.0699 0.45 batch/s
+
+epoch 2/5 train_loss=0.0936 val_loss=0.1653
+accuracy: 0.7927
+macro_f1: 0.8208
+food precision/recall: 0.9957/0.5815
+chart precision/recall: 0.9838/0.9339
+other recall: 0.9947
+other -> food FPR: 0.0033
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1163, 10, 827], [0, 791, 56], [5, 3, 1492]]
+train epoch 3 batch 20/272 loss=0.0627 0.37 batch/s
+train epoch 3 batch 40/272 loss=0.0807 0.40 batch/s
+train epoch 3 batch 60/272 loss=0.0334 0.41 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+train epoch 3 batch 80/272 loss=0.0823 0.43 batch/s
+train epoch 3 batch 100/272 loss=0.0938 0.43 batch/s
+train epoch 3 batch 120/272 loss=0.1076 0.43 batch/s
+train epoch 3 batch 140/272 loss=0.0909 0.43 batch/s
+train epoch 3 batch 160/272 loss=0.0467 0.43 batch/s
+train epoch 3 batch 180/272 loss=0.0687 0.43 batch/s
+train epoch 3 batch 200/272 loss=0.0919 0.43 batch/s
+train epoch 3 batch 220/272 loss=0.0859 0.43 batch/s
+train epoch 3 batch 240/272 loss=0.0358 0.43 batch/s
+train epoch 3 batch 260/272 loss=0.0473 0.44 batch/s
+
+epoch 3/5 train_loss=0.0659 val_loss=0.1573
+accuracy: 0.8063
+macro_f1: 0.8338
+food precision/recall: 0.9959/0.6010
+chart precision/recall: 0.9818/0.9575
+other recall: 0.9947
+other -> food FPR: 0.0033
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1202, 12, 786], [0, 811, 36], [5, 3, 1492]]
+train epoch 4 batch 20/272 loss=0.0432 0.41 batch/s
+train epoch 4 batch 40/272 loss=0.0698 0.43 batch/s
+train epoch 4 batch 60/272 loss=0.0766 0.43 batch/s
+train epoch 4 batch 80/272 loss=0.0413 0.45 batch/s
+train epoch 4 batch 100/272 loss=0.0227 0.44 batch/s
+train epoch 4 batch 120/272 loss=0.0554 0.44 batch/s
+train epoch 4 batch 140/272 loss=0.0443 0.44 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+train epoch 4 batch 160/272 loss=0.0481 0.44 batch/s
+train epoch 4 batch 180/272 loss=0.0486 0.45 batch/s
+train epoch 4 batch 200/272 loss=0.0469 0.45 batch/s
+train epoch 4 batch 220/272 loss=0.0546 0.44 batch/s
+train epoch 4 batch 240/272 loss=0.0702 0.44 batch/s
+train epoch 4 batch 260/272 loss=0.0463 0.44 batch/s
+
+epoch 4/5 train_loss=0.0509 val_loss=0.1581
+accuracy: 0.8079
+macro_f1: 0.8356
+food precision/recall: 0.9950/0.5995
+chart precision/recall: 0.9774/0.9705
+other recall: 0.9940
+other -> food FPR: 0.0040
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1199, 16, 785], [0, 822, 25], [6, 3, 1491]]
+train epoch 5 batch 20/272 loss=0.0333 0.41 batch/s
+train epoch 5 batch 40/272 loss=0.0516 0.43 batch/s
+train epoch 5 batch 60/272 loss=0.0617 0.44 batch/s
+train epoch 5 batch 80/272 loss=0.0287 0.45 batch/s
+train epoch 5 batch 100/272 loss=0.0445 0.45 batch/s
+train epoch 5 batch 120/272 loss=0.0195 0.45 batch/s
+train epoch 5 batch 140/272 loss=0.0468 0.45 batch/s
+train epoch 5 batch 160/272 loss=0.0441 0.46 batch/s
+train epoch 5 batch 180/272 loss=0.0874 0.45 batch/s
+train epoch 5 batch 200/272 loss=0.0386 0.45 batch/s
+train epoch 5 batch 220/272 loss=0.0353 0.46 batch/s
+train epoch 5 batch 240/272 loss=0.0224 0.45 batch/s
+train epoch 5 batch 260/272 loss=0.0504 0.45 batch/s
+
+epoch 5/5 train_loss=0.0437 val_loss=0.1377
+accuracy: 0.8330
+macro_f1: 0.8572
+food precision/recall: 0.9917/0.6580
+chart precision/recall: 0.9808/0.9669
+other recall: 0.9907
+other -> food FPR: 0.0073
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1316, 13, 671], [0, 819, 28], [11, 3, 1486]]

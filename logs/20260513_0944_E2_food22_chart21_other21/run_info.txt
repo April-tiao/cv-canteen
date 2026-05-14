@@ -1,0 +1,4 @@
+run_name=20260513_0944_E2_food22_chart21_other21
+config=configs/E2_head_food22_chart21_other21.yaml
+gpu=0
+started_at=2026-05-13T10:50:58+00:00

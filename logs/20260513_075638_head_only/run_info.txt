@@ -1,0 +1,11 @@
+run_name=20260513_075638_head_only
+config=configs/head_only.yaml
+gpu=0
+started_at=2026-05-13T07:56:38+00:00
+dataset_counts:
+train food 8000
+train chart 3388
+train other 6000
+val food 2000
+val chart 847
+val other 1500

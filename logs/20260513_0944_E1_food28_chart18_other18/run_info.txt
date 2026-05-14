@@ -1,0 +1,4 @@
+run_name=20260513_0944_E1_food28_chart18_other18
+config=configs/E1_head_food28_chart18_other18.yaml
+gpu=0
+started_at=2026-05-13T09:46:53+00:00

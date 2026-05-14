@@ -1,0 +1,16 @@
+[2026-05-13T09:44:23+00:00] start E0 threshold search
+[2026-05-13T09:46:53+00:00] E0_threshold_search status=SUCCESS
+[2026-05-13T09:46:53+00:00] done E0 threshold search
+[2026-05-13T09:46:53+00:00] start E1_food28_chart18_other18
+[2026-05-13T10:50:58+00:00] E1_food28_chart18_other18 status=SUCCESS
+[2026-05-13T10:50:58+00:00] done E1_food28_chart18_other18
+[2026-05-13T10:50:58+00:00] start E2_food22_chart21_other21
+[2026-05-13T11:44:51+00:00] E2_food22_chart21_other21 status=SUCCESS
+[2026-05-13T11:44:51+00:00] done E2_food22_chart21_other21
+[2026-05-13T11:44:51+00:00] start E3_food_pos_weight_1_5
+[2026-05-13T13:39:10+00:00] E3_food_pos_weight_1_5 status=SUCCESS
+[2026-05-13T13:39:10+00:00] done E3_food_pos_weight_1_5
+[2026-05-13T13:39:10+00:00] start E4_light_food_aug
+[2026-05-13T14:36:53+00:00] E4_light_food_aug status=SUCCESS
+[2026-05-13T14:36:53+00:00] done E4_light_food_aug
+all done: logs/20260513_0944_ablation_queue

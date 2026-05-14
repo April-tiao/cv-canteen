@@ -1,0 +1,125 @@
+train counts: {'food': 8000, 'chart': 3388, 'other': 6000}
+val counts: {'food': 2000, 'chart': 847, 'other': 1500}
+checkpoint_dir: checkpoints/20260513_0944_E3_food_pos_weight_1_5
+train epoch 1 batch 20/272 loss=0.6071 0.63 batch/s
+train epoch 1 batch 40/272 loss=0.4708 0.62 batch/s
+train epoch 1 batch 60/272 loss=0.3928 0.64 batch/s
+train epoch 1 batch 80/272 loss=0.3033 0.64 batch/s
+train epoch 1 batch 100/272 loss=0.2779 0.65 batch/s
+train epoch 1 batch 120/272 loss=0.2325 0.64 batch/s
+train epoch 1 batch 140/272 loss=0.1559 0.63 batch/s
+train epoch 1 batch 160/272 loss=0.2315 0.63 batch/s
+train epoch 1 batch 180/272 loss=0.1881 0.63 batch/s
+train epoch 1 batch 200/272 loss=0.1988 0.63 batch/s
+/XYAIFS00/HDD_POOL/pushi_yjliang/pushi_yjliang_1/mx/miniconda3/envs/canteen-a800/lib/python3.11/site-packages/PIL/Image.py:3452: DecompressionBombWarning: Image size (150176104 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+train epoch 1 batch 220/272 loss=0.2087 0.63 batch/s
+train epoch 1 batch 240/272 loss=0.1296 0.63 batch/s
+train epoch 1 batch 260/272 loss=0.1488 0.62 batch/s
+
+epoch 1/5 train_loss=0.2898 val_loss=0.2673
+accuracy: 0.7440
+macro_f1: 0.7722
+food precision/recall: 0.9980/0.5100
+chart precision/recall: 0.9836/0.8489
+other recall: 0.9967
+other -> food FPR: 0.0013
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1020, 9, 971], [0, 719, 128], [2, 3, 1495]]
+train epoch 2 batch 20/272 loss=0.1221 0.58 batch/s
+train epoch 2 batch 40/272 loss=0.1522 0.57 batch/s
+train epoch 2 batch 60/272 loss=0.0814 0.56 batch/s
+train epoch 2 batch 80/272 loss=0.1144 0.58 batch/s
+train epoch 2 batch 100/272 loss=0.1286 0.60 batch/s
+train epoch 2 batch 120/272 loss=0.1032 0.59 batch/s
+train epoch 2 batch 140/272 loss=0.0895 0.60 batch/s
+train epoch 2 batch 160/272 loss=0.1018 0.60 batch/s
+train epoch 2 batch 180/272 loss=0.0706 0.60 batch/s
+train epoch 2 batch 200/272 loss=0.1035 0.60 batch/s
+train epoch 2 batch 220/272 loss=0.1008 0.60 batch/s
+train epoch 2 batch 240/272 loss=0.0847 0.60 batch/s
+train epoch 2 batch 260/272 loss=0.0706 0.60 batch/s
+
+epoch 2/5 train_loss=0.1030 val_loss=0.2280
+accuracy: 0.7851
+macro_f1: 0.8141
+food precision/recall: 0.9956/0.5625
+chart precision/recall: 0.9791/0.9398
+other recall: 0.9947
+other -> food FPR: 0.0033
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1125, 14, 861], [0, 796, 51], [5, 3, 1492]]
+train epoch 3 batch 20/272 loss=0.0625 0.50 batch/s
+train epoch 3 batch 40/272 loss=0.1059 0.53 batch/s
+train epoch 3 batch 60/272 loss=0.0451 0.55 batch/s
+train epoch 3 batch 80/272 loss=0.0465 0.57 batch/s
+train epoch 3 batch 100/272 loss=0.1126 0.57 batch/s
+train epoch 3 batch 120/272 loss=0.1937 0.57 batch/s
+train epoch 3 batch 140/272 loss=0.0978 0.57 batch/s
+train epoch 3 batch 160/272 loss=0.0778 0.57 batch/s
+train epoch 3 batch 180/272 loss=0.0829 0.58 batch/s
+train epoch 3 batch 200/272 loss=0.0524 0.57 batch/s
+train epoch 3 batch 220/272 loss=0.1107 0.58 batch/s
+train epoch 3 batch 240/272 loss=0.0347 0.58 batch/s
+train epoch 3 batch 260/272 loss=0.0435 0.58 batch/s
+
+epoch 3/5 train_loss=0.0749 val_loss=0.2137
+accuracy: 0.8029
+macro_f1: 0.8304
+food precision/recall: 0.9958/0.5950
+chart precision/recall: 0.9794/0.9540
+other recall: 0.9947
+other -> food FPR: 0.0033
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1190, 14, 796], [0, 808, 39], [5, 3, 1492]]
+train epoch 4 batch 20/272 loss=0.0601 0.53 batch/s
+train epoch 4 batch 40/272 loss=0.0778 0.56 batch/s
+train epoch 4 batch 60/272 loss=0.0953 0.56 batch/s
+train epoch 4 batch 80/272 loss=0.0461 0.58 batch/s
+train epoch 4 batch 100/272 loss=0.0423 0.58 batch/s
+train epoch 4 batch 120/272 loss=0.0635 0.58 batch/s
+train epoch 4 batch 140/272 loss=0.0311 0.59 batch/s
+train epoch 4 batch 160/272 loss=0.0500 0.59 batch/s
+train epoch 4 batch 180/272 loss=0.1055 0.59 batch/s
+train epoch 4 batch 200/272 loss=0.0505 0.59 batch/s
+train epoch 4 batch 220/272 loss=0.0672 0.58 batch/s
+train epoch 4 batch 240/272 loss=0.0644 0.59 batch/s
+train epoch 4 batch 260/272 loss=0.0787 0.59 batch/s
+
+epoch 4/5 train_loss=0.0596 val_loss=0.2228
+accuracy: 0.8031
+macro_f1: 0.8312
+food precision/recall: 0.9949/0.5895
+chart precision/recall: 0.9762/0.9693
+other recall: 0.9940
+other -> food FPR: 0.0040
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1179, 17, 804], [0, 821, 26], [6, 3, 1491]]
+train epoch 5 batch 20/272 loss=0.0522 0.54 batch/s
+train epoch 5 batch 40/272 loss=0.0519 0.58 batch/s
+train epoch 5 batch 60/272 loss=0.0442 0.59 batch/s
+train epoch 5 batch 80/272 loss=0.0389 0.60 batch/s
+train epoch 5 batch 100/272 loss=0.0593 0.61 batch/s
+train epoch 5 batch 120/272 loss=0.0281 0.61 batch/s
+train epoch 5 batch 140/272 loss=0.0822 0.61 batch/s
+train epoch 5 batch 160/272 loss=0.0597 0.61 batch/s
+train epoch 5 batch 180/272 loss=0.0490 0.61 batch/s
+train epoch 5 batch 200/272 loss=0.0388 0.62 batch/s
+train epoch 5 batch 220/272 loss=0.0491 0.62 batch/s
+train epoch 5 batch 240/272 loss=0.0191 0.61 batch/s
+train epoch 5 batch 260/272 loss=0.0567 0.61 batch/s
+
+epoch 5/5 train_loss=0.0502 val_loss=0.2010
+accuracy: 0.8254
+macro_f1: 0.8508
+food precision/recall: 0.9953/0.6375
+chart precision/recall: 0.9797/0.9705
+other recall: 0.9940
+other -> food FPR: 0.0040
+other -> chart FPR: 0.0020
+confusion_matrix rows=true cols=pred [food, chart, other]:
+[[1275, 14, 711], [0, 822, 25], [6, 3, 1491]]

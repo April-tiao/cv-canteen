@@ -1,0 +1,4 @@
+run_name=20260513_0944_E3_food_pos_weight_1_5
+config=configs/E3_head_food_pos_weight_1_5.yaml
+gpu=0
+started_at=2026-05-13T11:44:51+00:00

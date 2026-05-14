@@ -1,0 +1,22 @@
+{
+  "t_food": 0.5,
+  "t_chart": 0.85,
+  "accuracy": 0.8741660915573959,
+  "macro_f1": 0.8916118351049894,
+  "food_precision": 0.9835958005249343,
+  "food_recall": 0.7495,
+  "chart_precision": 0.9741176470588235,
+  "chart_recall": 0.9775678866587958,
+  "other_recall": 0.982,
+  "other_to_food_fpr": 0.016666666666666666,
+  "other_to_chart_fpr": 0.0013333333333333333,
+  "thresholds": {
+    "food": 0.5,
+    "chart": 0.85
+  },
+  "score_means": {
+    "food_score": 0.3396484851837158,
+    "chart_score": 0.21474120020866394
+  },
+  "confusion_matrix": "[[1499, 20, 481], [0, 828, 19], [25, 2, 1473]]"
+}
